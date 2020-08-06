@@ -1,0 +1,138 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title> Web Page 4 </title>
+
+    <style>
+        
+        *{
+            margin:0;
+            padding:0;
+            box-style:border-box;
+		}
+
+        body{
+            background:#E3BEBE;  
+		}
+
+        .content{
+            float:left;  
+            margin-top:100px;
+            margin-left:100px;
+		}
+
+        .content ul{
+            font-family:comic sans ms;  
+            margin-left:20px;
+            margin-top:20px;
+		}
+
+        .content ul li{
+            list-style-type:disc;  
+            padding:10px;
+		}
+
+        .content ul li a{
+            text-decoration:none; 
+            color:gray;
+		}
+
+        .content ul li a:hover{
+            background-color: #CE8181;  
+		}
+
+        .pic{
+            float:left;
+            margin-left:150px;  
+            margin-top:80px;
+            filter: drop-shadow(10px 10px 10px #575151);
+		}
+
+        .box div{
+            position:absolute;
+            width:60px;
+            height:60px;
+            background-color:transparent;
+            border:6px solid rgba(255,255,255,0.8);
+		}
+
+        .box div:nth-child(1){
+            top:12%;
+            left:50%;
+            animation:animate 4s linear infinite;
+		}
+
+        .box div:nth-child(2){
+            top:70%;
+            left:80%;
+            animation:animate 5s linear infinite;
+		}
+
+        .box div:nth-child(3){
+            top:17%;
+            left:6%;
+            animation:animate 3s linear infinite;
+		}
+
+        .box div:nth-child(4){
+            top:77%;
+            left:10%;
+            animation:animate 5s linear infinite;
+		}
+
+        .box div:nth-child(5){
+            top:40%;
+            left:40%;
+            animation:animate 6s linear infinite;
+		}
+
+        .box div:nth-child(6){
+            top:45%;
+            left:65%;
+            animation:animate 3s linear infinite;
+		}
+
+        @keyframes animate{
+            0%{
+                transform: scale(0) translateY0y) rotate(0);
+                opacity:1;
+			}  
+            100%{
+                transform: scale(1.3) translateY(-90) rotate(360deg);
+                opacity:0;
+			}  
+		}
+    </style>
+</head>
+<body>
+
+    <div class="content">
+        <p style="font-family:Algerian; font-size:40px;"> <b> Journey Till Now </b> </p>
+        <ul>    
+            <li> '16: Graduated from <a href="http://www.ggnpublicschool.com"> GGN Public School </a> </li>
+            <li> '16: Joined <a href="http://ggnkcl.com"> GGN Khalsa College </a> </li>
+            <li> '17: Gave a presentation in <a href="http://www.puchd.ac.in"> Panjab University </a> </li>
+            <li> '18: Started working with <a href="http://trees.org"> Trees.org </a> </li>
+            <li> '19: Graduated from College </li>
+            <li> '20: Started Post Baccalaureate at <a href="http://www.douglascollege.ca"> Douglas College </a> </li>
+            <li> '20: Became an Illustration freelancer </li>
+            <li> '20: Started an E-Sports organization named <a href="https://www.instagram.com/goldleafesports/"> Gold-Leaf </a> with a friend </li>
+        </ul>
+    </div>
+
+    <div class="pic">
+        <img src="mypng.png" height=500 width=400>
+    </div>
+
+    <div class="box">
+        <div> </div>
+        <div> </div>
+        <div> </div>
+        <div> </div>
+        <div> </div>
+        <div> </div>
+    </div>
+</body>
+</html>

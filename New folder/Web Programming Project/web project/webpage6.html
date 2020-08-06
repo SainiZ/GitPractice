@@ -1,0 +1,60 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title> Web Page 6 </title>
+    <link rel="stylesheet" type="text/css" href="style4.css">
+</head>
+<body>
+    
+
+<form action="Hahaha.html" method="post" onsubmit="">
+    <div class="contactform">
+       
+
+        <h2 id="tareek"> </h2>
+
+        <div class="formitems">
+            <label> First Name :</label>
+            <input id="input" type="text" name="" value="" placeholder="Enter Your First Name">
+        </div>
+
+        <div class="formitems">
+            <label> Last Name :</label>
+            <input id="input" type="text" name="" value="" placeholder="Enter Your Last Name">
+        </div>
+
+        <div class="formitems">
+            <label> E-Mail :</label>
+            <input id="input" type="email" name="" value="" placeholder="Enter Your E-mail Address">
+        </div> 
+
+        <div class="formitems">
+            <label> Phone Number :</label>
+            <input id="input" type="number" name="" value="" placeholder="Enter Your Phone Number">
+        </div>
+
+        <div class="formitems">
+            <label> Message :</label>
+            <textarea></textarea>
+        </div>
+        <div>
+            <br>
+            <input type="reset" onclick="reset()" value= "Click Here to RESET" ></button>
+            <br><br>
+            <input type="submit" id="sendth"></input>
+        </div>
+    </div>
+</form>
+<script type="text/javascript">
+
+    var x= new Date();
+    document.getElementById("tareek").innerHTML = x;
+
+    function reset(){
+     document.getElementByID("input").value="";
+	}
+</script>
+</body>
+</html>
